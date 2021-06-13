@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: ankit
+    password: admin123
+  cloud.stream:
+    default:
+      binder: rabbit
+      contentType: application/json
+    bindings:
+      accountInsert-out-0:
+        destination: account-insert
+        producer:
+          requiredGroups: account-insert
+
+
+
+  datasource:
+    url : jdbc:postgresql://localhost:5432/postgres
+
+    username : postgres
+    password : password
+
+  jpa:
+    hibernate:
+      ddl-auto : create-drop

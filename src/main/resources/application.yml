@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: modularbank
+server:
+  port: 8080
+  servlet:
+    context-path: /modular-service/v1

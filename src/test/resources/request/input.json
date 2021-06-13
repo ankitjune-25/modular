@@ -1,0 +1,16 @@
+{
+  "createAccount": {
+    "customerId" : "1",
+    "country":"india",
+    "currencies":[
+      "EUR", "SEK", "GBP", "USD"
+    ]
+  },
+  "createTransaction": {
+    "accountId" : 1,
+    "ammount" : 25,
+    "currency" : "USD",
+    "direction": "IN",
+    "description" : "Account debited"
+  }
+}

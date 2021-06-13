@@ -1,0 +1,86 @@
+{
+  "createAccountResponse": {
+    "accountId": 1,
+    "customerId": "1",
+    "country": "india",
+    "balances": [
+      {
+        "currency": "EUR",
+        "ammount": 0
+      },
+      {
+        "currency": "SEK",
+        "ammount": 0
+      },
+      {
+        "currency": "GBP",
+        "ammount": 0
+      },
+      {
+        "currency": "USD",
+        "ammount": 0
+      }
+    ]
+  },
+  "getAccountResponse": {
+    "accountId": 1,
+    "customerId": "1",
+    "country": "india",
+    "balances": [
+      {
+        "currency": "EUR",
+        "ammount": 0
+      },
+      {
+        "currency": "SEK",
+        "ammount": 0
+      },
+      {
+        "currency": "GBP",
+        "ammount": 0
+      },
+      {
+        "currency": "USD",
+        "ammount": 0
+      }
+    ]
+  },
+  "inTransactionResponse": {
+    "accountId": 1,
+    "transactionId": 1,
+    "direction": "IN",
+    "amount": 50,
+    "balance": 50,
+    "currency": "USD",
+    "description": "Account credited"
+  },
+  "outTransactionResponse": {
+    "accountId": 1,
+    "transactionId": 2,
+    "direction": "OUT",
+    "amount": 25,
+    "balance": 25,
+    "currency": "USD",
+    "description": "Account debited"
+  },
+  "getTransactionResponse": [
+    {
+      "accountId": 1,
+      "transactionId": 1,
+      "direction": "IN",
+      "amount": 50,
+      "balance": 25,
+      "currency": "USD",
+      "description": "Account credited"
+    },
+    {
+      "accountId": 1,
+      "transactionId": 2,
+      "direction": "OUT",
+      "amount": 25,
+      "balance": 25,
+      "currency": "USD",
+      "description": "Account debited"
+    }
+  ]
+}

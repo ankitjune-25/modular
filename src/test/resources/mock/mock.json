@@ -1,0 +1,336 @@
+{
+  "createAccountMock": {
+    "id": 1,
+    "customerId": "1",
+    "country": "india",
+    "balanceList": [
+      {
+        "id": 2,
+        "type": "EUR",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 3,
+        "type": "SEK",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 4,
+        "type": "GBP",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 5,
+        "type": "USD",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      }
+    ],
+    "createdAt": "Jun 12, 2021 10:18:09 PM",
+    "updatedAt": "Jun 12, 2021 10:18:09 PM"
+  },
+  "getAccountMock": {
+    "id": 1,
+    "customerId": "1",
+    "country": "india",
+    "balanceList": [
+      {
+        "id": 2,
+        "type": "EUR",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 3,
+        "type": "SEK",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 4,
+        "type": "GBP",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 5,
+        "type": "USD",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      }
+    ],
+    "createdAt": "Jun 12, 2021 10:18:09 PM",
+    "updatedAt": "Jun 12, 2021 10:18:09 PM"
+  },
+  "inAccountMock": {
+    "id": 1,
+    "customerId": "1",
+    "country": "india",
+    "balanceList": [
+      {
+        "id": 2,
+        "type": "EUR",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 3,
+        "type": "SEK",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 4,
+        "type": "GBP",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 5,
+        "type": "USD",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      }
+    ],
+    "createdAt": "Jun 12, 2021 10:18:09 PM",
+    "updatedAt": "Jun 12, 2021 10:18:09 PM"
+  },
+  "inTransactionMock": {
+    "id": 1,
+    "account": {
+      "id": 1,
+      "customerId": "1",
+      "country": "india",
+      "balanceList": [
+        {
+          "id": 2,
+          "type": "EUR",
+          "ammount": 0,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:18:09 PM"
+        },
+        {
+          "id": 3,
+          "type": "SEK",
+          "ammount": 0,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:18:09 PM"
+        },
+        {
+          "id": 4,
+          "type": "GBP",
+          "ammount": 0,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:18:09 PM"
+        },
+        {
+          "id": 5,
+          "type": "USD",
+          "ammount": 50,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:23:28 PM"
+        }
+      ],
+      "createdAt": "Jun 12, 2021 10:18:09 PM",
+      "updatedAt": "Jun 12, 2021 10:18:09 PM"
+    },
+    "ammount": 50,
+    "currency": "USD",
+    "direction": "IN",
+    "description": "Account credited",
+    "createdAt": "Jun 12, 2021 10:23:28 PM",
+    "updatedAt": "Jun 12, 2021 10:23:28 PM"
+  },
+  "outAccountMock": {
+    "id": 1,
+    "customerId": "1",
+    "country": "india",
+    "balanceList": [
+      {
+        "id": 2,
+        "type": "EUR",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 3,
+        "type": "SEK",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 4,
+        "type": "GBP",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      {
+        "id": 5,
+        "type": "USD",
+        "ammount": 0,
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      }
+    ],
+    "createdAt": "Jun 12, 2021 10:18:09 PM",
+    "updatedAt": "Jun 12, 2021 10:18:09 PM"
+  },
+  "outTransactionMock": {
+    "id": 2,
+    "account": {
+      "id": 1,
+      "customerId": "1",
+      "country": "india",
+      "balanceList": [
+        {
+          "id": 2,
+          "type": "EUR",
+          "ammount": 0,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:18:09 PM"
+        },
+        {
+          "id": 3,
+          "type": "SEK",
+          "ammount": 0,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:18:09 PM"
+        },
+        {
+          "id": 4,
+          "type": "GBP",
+          "ammount": 0,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:18:09 PM"
+        },
+        {
+          "id": 5,
+          "type": "USD",
+          "ammount": 25,
+          "createdAt": "Jun 12, 2021 10:18:09 PM",
+          "updatedAt": "Jun 12, 2021 10:25:50 PM"
+        }
+      ],
+      "createdAt": "Jun 12, 2021 10:18:09 PM",
+      "updatedAt": "Jun 12, 2021 10:18:09 PM"
+    },
+    "ammount": 25,
+    "currency": "USD",
+    "direction": "OUT",
+    "description": "Account debited",
+    "createdAt": "Jun 12, 2021 10:25:50 PM",
+    "updatedAt": "Jun 12, 2021 10:25:50 PM"
+  },
+  "getTransactionMock": [
+    {
+      "id": 1,
+      "account": {
+        "id": 1,
+        "customerId": "1",
+        "country": "india",
+        "balanceList": [
+          {
+            "id": 2,
+            "type": "EUR",
+            "ammount": 0,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:18:09 PM"
+          },
+          {
+            "id": 3,
+            "type": "SEK",
+            "ammount": 0,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:18:09 PM"
+          },
+          {
+            "id": 4,
+            "type": "GBP",
+            "ammount": 0,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:18:09 PM"
+          },
+          {
+            "id": 5,
+            "type": "USD",
+            "ammount": 25,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:25:50 PM"
+          }
+        ],
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      "ammount": 50,
+      "currency": "USD",
+      "direction": "IN",
+      "description": "Account credited",
+      "createdAt": "Jun 12, 2021 10:23:28 PM",
+      "updatedAt": "Jun 12, 2021 10:23:28 PM"
+    },
+    {
+      "id": 2,
+      "account": {
+        "id": 1,
+        "customerId": "1",
+        "country": "india",
+        "balanceList": [
+          {
+            "id": 2,
+            "type": "EUR",
+            "ammount": 0,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:18:09 PM"
+          },
+          {
+            "id": 3,
+            "type": "SEK",
+            "ammount": 0,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:18:09 PM"
+          },
+          {
+            "id": 4,
+            "type": "GBP",
+            "ammount": 0,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:18:09 PM"
+          },
+          {
+            "id": 5,
+            "type": "USD",
+            "ammount": 25,
+            "createdAt": "Jun 12, 2021 10:18:09 PM",
+            "updatedAt": "Jun 12, 2021 10:25:50 PM"
+          }
+        ],
+        "createdAt": "Jun 12, 2021 10:18:09 PM",
+        "updatedAt": "Jun 12, 2021 10:18:09 PM"
+      },
+      "ammount": 25,
+      "currency": "USD",
+      "direction": "OUT",
+      "description": "Account debited",
+      "createdAt": "Jun 12, 2021 10:25:50 PM",
+      "updatedAt": "Jun 12, 2021 10:25:50 PM"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+version: '3.5'
+
+networks:
+  modular-net:
+    driver: bridge
+
+services:
+  modular-bank:
+    restart: on-failure
+    container_name: modular
+    image: modular
+    build: ./
+    volumes:
+      - ./modularbank:/logs
+    ports:
+      - "8080:8080"
+    networks:
+      - modular-net
+    depends_on:
+      - postgres
+      - rabbitmq
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+      - RABBITMQ_HOST=rabbitmq
+      - RABBITMQ_PORT=5672
+      - RABBITMQ_USERNAME=ankit
+      - RABBITMQ_PASSWORD=admin123
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=5432
+      - POSTGRES_USERNAME=postgres
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DATABASE=postgres
+
+  postgres:
+    image: bitnami/postgresql:latest
+    networks:
+      - modular-net
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRESQL_USERNAME: postgres
+      POSTGRESQL_PASSWORD: password
+      POSTGRESQL_DATABASE: postgres
+      BUCKET_RAMSIZE: 300
+
+  rabbitmq:
+    image: bitnami/rabbitmq
+    networks:
+      - modular-net
+    environment:
+      RABBITMQ_USERNAME: ankit
+      RABBITMQ_PASSWORD: admin123
+    ports:
+      - '15672:15672'
+      - '5672:5672'

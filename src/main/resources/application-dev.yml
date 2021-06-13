@@ -1,0 +1,33 @@
+spring:
+
+  rabbitmq:
+    host: ${rabbitmq.host:127.0.0.1}
+    port: ${rabbitmq.port:5672}
+    username: ${rabbitmq.username:ankit}
+    password: ${rabbitmq.password:admin123}
+  cloud.stream:
+    default:
+      binder: rabbit
+      contentType: application/json
+    bindings:
+      accountInsert-out-0:
+        destination: account-insert
+        producer:
+          requiredGroups: account-insert
+      consumeMessage-in-0:
+        destination: account-insert
+        group: account-insert
+        consumer:
+          maxAttempts: 3
+          backOffInitialInterval: 500
+          backOffMaxInterval: 1000
+          backOffMultiplier: 2.0
+
+  datasource:
+    url : jdbc:postgresql://${postgres.host:localhost}:${postgres.port:5432}/${postgres.database:postgres}
+    username : ${postgres.username:postgres}
+    password : ${postgres.password:password}
+
+  jpa:
+    hibernate:
+      ddl-auto : create-drop
